@@ -24,9 +24,7 @@ CACTI_WEBROOT="/usr/share/cacti/site"
 The script also configures a local read-only snmp community specified with SNMP_RO_COMMUNITY. 
 The snmp installation can be tested with the following command:
 
-    ```
     sudo snmpwalk -v 2c -c ${SNMP_RO_COMMUNITY} localhost system
-    ```
 
-For debugging purposes you can check LOGFILE="/tmp/cacti-migrator.log".
+For debugging purposes you can check `LOGFILE="/tmp/cacti-migrator.log"`.
 
