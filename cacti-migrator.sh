@@ -335,7 +335,7 @@ sed -i s/localhost/${DB_HOST}/ ${CACTI_WEBROOT}/include/global.php
 
 install_info(){
 
-mklog "Please go to http://185.118.24.6/cacti and follow the instructions."
+mklog "Please go to http://localhost/cacti and follow the instructions."
 mklog "WARNING!!! After the installation is complete, please run the following commands"
 mklog "to avoid security risks"
 
