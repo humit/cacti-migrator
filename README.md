@@ -9,6 +9,7 @@ and then download and install the `latest` version of cacti from https://www.cac
 
 For the new cacti server the following variables must be set inside the script:
 
+```
 DB_USER="cacti_user"
 DB_PASS="CACTI_PASSWORD"
 DB_NAME="cacti"
@@ -18,6 +19,7 @@ DB_ROOT_PASS="DB_ROOT_PASSWORD"
 CACTI_USER="www-data"
 CACTI_GRUP="www-data"
 CACTI_WEBROOT="/usr/share/cacti/site"
+```
 
 The script also configures a local read-only snmp community specified with SNMP_RO_COMMUNITY. 
 The snmp installation can be tested with the following command:
